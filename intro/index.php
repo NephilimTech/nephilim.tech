@@ -27,28 +27,9 @@
 
 <body>
 
-  <form id="content" method="post" action="index.php">
-   <input type="text" name="input" class="input" id="input">
-   <button type="reset" class="search"></button>
 
-  </form>
 
-  <?php
-  include "redirect.php"
-  ?>
-  <div id="circularMenu" class="circular-menu">
-
-  <a class="floating-btn" onclick="document.getElementById('circularMenu').classList.toggle('active');">
-    <i class="fa fa-plus"></i>
-  </a>
-
-  <menu class="items-wrapper">
-    <a href="https://iisermohali.ac.in/src/login.php" class="menu-item fa fa-envelope"></a>
-    <a href="http://14.139.227.197/" class="menu-item fa fa-book"></a>
-    <a href="../../../moodle" class="menu-item fa fa-graduation-cap"></a>
-    <a href="http://iisermohali.ac.in" class="menu-item fa fa-home"></a>
-  </menu>
-
+  
 </div>
 
    <section id="intro" class="section section--intro">
