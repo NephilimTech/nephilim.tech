@@ -25,7 +25,7 @@ html,
 body {
   width: 100%;
   min-height: 100%;
-  background: #f0f0f0;
+  background: #202020;
   overflow-x: hidden;
 }
 .wrapper {
@@ -36,8 +36,8 @@ body {
   position: relative;
 }
 .square-wrapper {
-  width: 200px;
-  height: 200px;
+  width: 0px;
+  height: 0px;
   background: #f0f0f0;
 }
 .line {
@@ -148,8 +148,8 @@ body {
   font-weight: 100;
 }
 .outer-logo-circle {
-  width: 190px;
-  height: 190px;
+  width: 0px;
+  height: 0px;
   z-index: 14;
   -webkit-transform-origin: 50% 50%;
   transform-origin: 50% 50%;
@@ -243,8 +243,8 @@ body {
 #content.on {
   -webkit-animation-name: in-out;
   animation-name: in-out;
-  -webkit-animation-duration: 0.7s;
-  animation-duration: 0.7s;
+  -webkit-animation-duration: 0.1s;
+  animation-duration: 0.1s;
   -webkit-animation-timing-function: linear;
   animation-timing-function: linear;
   -webkit-animation-iteration-count: 1;

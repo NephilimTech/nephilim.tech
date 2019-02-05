@@ -76,7 +76,7 @@ function intro() {
     tl.set(lineSeparator, { scaleX: 0 }).to(lineSeparator, 1, {
       scaleX: 1,
       ease: 'Expo.easeOut'
-    }, 3);
+    }, 2);
 
     _.forEach(words, function (word) {
       var spans = splitTextInSpans(word);
@@ -84,7 +84,7 @@ function intro() {
         var tlWords = new TimelineMax();
 
         tlWords.set(span, { y: span.clientHeight, opacity: 1 });
-        var delay = (3 + Math.abs(spans.length / 2 - j) / 20).toFixed(2);
+        var delay = (1 + Math.abs(spans.length / 2 - j) / 20).toFixed(2);
         tlWords.to(span, 1.4, {
           y: 0,
           ease: 'Expo.easeOut'
@@ -126,7 +126,7 @@ function intro() {
 
         var line = _ref;
 
-        var startTime = _.random(5, true);
+        var startTime = _.random(1, true);
         tl.to(line, .4, {
           scaleX: 1,
           ease: 'Expo.Power4'
